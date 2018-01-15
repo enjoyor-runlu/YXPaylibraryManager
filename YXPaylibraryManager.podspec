@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YXPaylibraryManager'
-  s.version          = '1.0.5'
+  s.version          = '1.0.7'
   s.summary          = 'YXPaylibraryManager.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,8 @@ TODO: Add long description of the pod here.
 
   #s.source_files  = 'YXPaylibraryManager/weChat/*.{h,m}'
   s.subspec 'weChat' do |weChat|
-  weChat.source_files = 'YXPaylibraryManager/weChat/Class/*.{h,m}'
+  weChat.source_files = 'YXPaylibraryManager/weChat/*.{h,m}'
+  weChat.frameworks = 'libWeChatSDK.a'  
   end
 
 

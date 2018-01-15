@@ -18,6 +18,7 @@
 		53220DAF200C9A9E00ADEBAD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 53220DAE200C9A9E00ADEBAD /* libz.tbd */; };
 		53220DB1200C9AB800ADEBAD /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 53220DB0200C9AB800ADEBAD /* libc++.tbd */; };
 		53220DB3200C9B1E00ADEBAD /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53220DB2200C9B1E00ADEBAD /* CoreMotion.framework */; };
+		53220DCA200CE6DF00ADEBAD /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53220DC9200CE6DF00ADEBAD /* libWeChatSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		53220DC6200CE50900ADEBAD /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		53220DC7200CE50900ADEBAD /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		53220DC8200CE50900ADEBAD /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		53220DC9200CE6DF00ADEBAD /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			files = (
 				53220DB3200C9B1E00ADEBAD /* CoreMotion.framework in Frameworks */,
 				53220DB1200C9AB800ADEBAD /* libc++.tbd in Frameworks */,
+				53220DCA200CE6DF00ADEBAD /* libWeChatSDK.a in Frameworks */,
 				53220DAF200C9A9E00ADEBAD /* libz.tbd in Frameworks */,
 				53220DAD200C9A6F00ADEBAD /* libsqlite3.tbd in Frameworks */,
 				53220DAB200C98EC00ADEBAD /* CoreTelephony.framework in Frameworks */,
@@ -106,6 +109,7 @@
 		53220DC5200CE50900ADEBAD /* weChat */ = {
 			isa = PBXGroup;
 			children = (
+				53220DC9200CE6DF00ADEBAD /* libWeChatSDK.a */,
 				53220DC6200CE50900ADEBAD /* WXApi.h */,
 				53220DC7200CE50900ADEBAD /* WXApiObject.h */,
 				53220DC8200CE50900ADEBAD /* WechatAuthSDK.h */,
@@ -334,6 +338,7 @@
 					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/LLPay/Frameworks",
 					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/weChat/Frameworks",
 					"$(PROJECT_DIR)/YXPaylibraryManager/weChat/Frameworks",
+					"$(PROJECT_DIR)/YXPaylibraryManager/weChat",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = YiXiang.YXPaylibraryManager;
@@ -360,6 +365,7 @@
 					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/LLPay/Frameworks",
 					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/weChat/Frameworks",
 					"$(PROJECT_DIR)/YXPaylibraryManager/weChat/Frameworks",
+					"$(PROJECT_DIR)/YXPaylibraryManager/weChat",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = YiXiang.YXPaylibraryManager;
