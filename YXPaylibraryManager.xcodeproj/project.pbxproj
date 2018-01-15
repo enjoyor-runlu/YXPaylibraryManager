@@ -117,20 +117,20 @@
 		53220DBD200CE2E500ADEBAD /* weChat */ = {
 			isa = PBXGroup;
 			children = (
-				53220DBE200CE2E500ADEBAD /* WeChat */,
+				53220DBE200CE2E500ADEBAD /* Class */,
 				53220DC2200CE2E500ADEBAD /* Frameworks */,
 			);
 			path = weChat;
 			sourceTree = "<group>";
 		};
-		53220DBE200CE2E500ADEBAD /* WeChat */ = {
+		53220DBE200CE2E500ADEBAD /* Class */ = {
 			isa = PBXGroup;
 			children = (
 				53220DBF200CE2E500ADEBAD /* WXApi.h */,
 				53220DC0200CE2E500ADEBAD /* WXApiObject.h */,
 				53220DC1200CE2E500ADEBAD /* WechatAuthSDK.h */,
 			);
-			path = WeChat;
+			path = Class;
 			sourceTree = "<group>";
 		};
 		53220DC2200CE2E500ADEBAD /* Frameworks */ = {
