@@ -36,9 +36,9 @@
 		53220DAE200C9A9E00ADEBAD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		53220DB0200C9AB800ADEBAD /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		53220DB2200C9B1E00ADEBAD /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		53220DB6200CD35700ADEBAD /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		53220DB7200CD35700ADEBAD /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
-		53220DB8200CD35700ADEBAD /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		53220DBA200CDCD200ADEBAD /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		53220DBB200CDCD200ADEBAD /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		53220DBC200CDCD200ADEBAD /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +77,7 @@
 		53220D79200C969E00ADEBAD /* YXPaylibraryManager */ = {
 			isa = PBXGroup;
 			children = (
+				53220DB9200CDCD200ADEBAD /* weChat */,
 				53220DB4200CD35700ADEBAD /* Classes */,
 				53220D7A200C969E00ADEBAD /* AppDelegate.h */,
 				53220D7B200C969E00ADEBAD /* AppDelegate.m */,
@@ -106,17 +107,16 @@
 		53220DB4200CD35700ADEBAD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				53220DB5200CD35700ADEBAD /* weChat */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		53220DB5200CD35700ADEBAD /* weChat */ = {
+		53220DB9200CDCD200ADEBAD /* weChat */ = {
 			isa = PBXGroup;
 			children = (
-				53220DB6200CD35700ADEBAD /* WXApi.h */,
-				53220DB7200CD35700ADEBAD /* WXApiObject.h */,
-				53220DB8200CD35700ADEBAD /* WechatAuthSDK.h */,
+				53220DBA200CDCD200ADEBAD /* WXApi.h */,
+				53220DBB200CDCD200ADEBAD /* WXApiObject.h */,
+				53220DBC200CDCD200ADEBAD /* WechatAuthSDK.h */,
 			);
 			path = weChat;
 			sourceTree = "<group>";
