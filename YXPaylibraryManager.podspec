@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YXPaylibraryManager'
-  s.version          = '1.0.7'
+  s.version          = '1.0.8'
   s.summary          = 'YXPaylibraryManager.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,15 @@ TODO: Add long description of the pod here.
   #s.source_files  = 'YXPaylibraryManager/weChat/*.{h,m}'
   s.subspec 'weChat' do |weChat|
   weChat.source_files = 'YXPaylibraryManager/weChat/*.{h,m}'
-  weChat.frameworks = 'libWeChatSDK.a'  
+  weChat.vendored_libraries = 'YXPaylibraryManager/weChat/libWeChatSDK.a'
+  weChat.libraries = 'stdc++','z','sqlite3'
+  weChat.frameworks = 'CoreMotion','CoreTelephony','SystemConfiguration'
+  end
+  
+  s.subspec 'aliPay' do |aliPay|
+  aliPay.resource = "YXPaylibraryManager/aliPay/Assets/AlipaySDK.bundle"
+  #weChat.libraries = 'stdc++','z','sqlite3'
+  #weChat.frameworks = 'CoreMotion','CoreTelephony','SystemConfiguration'
   end
 
 
