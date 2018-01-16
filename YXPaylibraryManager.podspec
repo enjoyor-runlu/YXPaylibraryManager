@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YXPaylibraryManager'
-  s.version          = '1.0.10'
+  s.version          = '1.0.11'
   s.summary          = 'YXPaylibraryManager.'
 
 # This description is used to generate tags and improve search results.
@@ -35,14 +35,14 @@ TODO: Add long description of the pod here.
    weChat.source_files = 'YXPaylibraryManager/weChat/*.{h,m}'
    weChat.vendored_libraries = 'YXPaylibraryManager/weChat/libWeChatSDK.a'
    weChat.libraries = 'stdc++','z','sqlite3'
-   weChat.frameworks = 'CoreMotion','CoreTelephony','SystemConfiguration'
+   weChat.frameworks = 'UIKit', 'Foundation','CoreMotion','CoreTelephony','SystemConfiguration'
    end
 
    s.subspec 'aliPay' do |aliPay|
    aliPay.resource = 'YXPaylibraryManager/aliPay/Assets/AlipaySDK.bundle'
    aliPay.libraries = 'stdc++','z','sqlite3'
    aliPay.vendored_frameworks = 'YXPaylibraryManager/aliPay/Frameworks/AlipaySDK.framework' 
-   aliPay.frameworks = 'CoreMotion','CoreTelephony','SystemConfiguration'
+   aliPay.frameworks = 'UIKit', 'Foundation','CoreMotion','CoreTelephony','SystemConfiguration'
    end
    
    s.subspec 'llPay' do |llPay|
@@ -50,7 +50,7 @@ TODO: Add long description of the pod here.
    llPay.vendored_libraries = 'YXPaylibraryManager/llPay/Frameworks/libPaySdkColor.a'
    llPay.source_files = 'YXPaylibraryManager/llPay/LLPayClass/*.{h}'
    llPay.libraries = 'stdc++','z','sqlite3'
-   llPay.frameworks = 'CoreMotion','CoreTelephony','SystemConfiguration'
+   llPay.frameworks = 'UIKit', 'Foundation','CoreMotion','CoreTelephony','SystemConfiguration'
    end
 
 
@@ -59,7 +59,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'Foundation'
+ #  s.frameworks = 'UIKit', 'Foundation'
  #  s.dependency 'YXFDCategories'
  #  s.dependency 'AFNetworking', '3.1.0'
  #  s.dependency 'TMCache'
