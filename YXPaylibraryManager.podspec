@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YXPaylibraryManager'
-  s.version          = '1.0.7'
+  s.version          = '1.0.9'
   s.summary          = 'YXPaylibraryManager.'
 
 # This description is used to generate tags and improve search results.
@@ -30,11 +30,28 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  #s.source_files  = 'YXPaylibraryManager/weChat/*.{h,m}'
-  s.subspec 'weChat' do |weChat|
-  weChat.source_files = 'YXPaylibraryManager/weChat/*.{h,m}'
-  weChat.frameworks = 'libWeChatSDK.a'  
-  end
+   #s.source_files  = 'YXPaylibraryManager/weChat/*.{h,m}'
+   s.subspec 'weChat' do |weChat|
+   weChat.source_files = 'YXPaylibraryManager/weChat/*.{h,m}'
+   weChat.vendored_libraries = 'YXPaylibraryManager/weChat/libWeChatSDK.a'
+   weChat.libraries = 'stdc++','z','sqlite3'
+   weChat.frameworks = 'CoreMotion','CoreTelephony','SystemConfiguration'
+   end
+
+   s.subspec 'aliPay' do |aliPay|
+   aliPay.resource = 'YXPaylibraryManager/aliPay/Assets/AlipaySDK.bundle'
+   aliPay.libraries = 'stdc++','z','sqlite3'
+   aliPay.vendored_frameworks = 'YXPaylibraryManager/aliPay/Frameworks/AlipaySDK.framework' 
+   aliPay.frameworks = 'CoreMotion','CoreTelephony','SystemConfiguration'
+   end
+   
+   s.subspec 'LLPay' do |LLPay|
+   LLPay.resource = 'YXPaylibraryManager/LLPay/Assets/walletResources.bundle'
+   LLPay.vendored_libraries = 'YXPaylibraryManager/LLPay/Frameworks/libPaySdkColor.a'
+   LLPay.source_files = 'YXPaylibraryManager/LLPay/LLpayClass/*.{h,m}'
+   LLPay.libraries = 'stdc++','z','sqlite3'
+   LLPay.frameworks = 'CoreMotion','CoreTelephony','SystemConfiguration'
+   end
 
 
   # s.resource_bundles = {
