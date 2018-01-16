@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YXPaylibraryManager'
-  s.version          = '1.0.9'
+  s.version          = '1.0.10'
   s.summary          = 'YXPaylibraryManager.'
 
 # This description is used to generate tags and improve search results.
@@ -45,12 +45,12 @@ TODO: Add long description of the pod here.
    aliPay.frameworks = 'CoreMotion','CoreTelephony','SystemConfiguration'
    end
    
-   s.subspec 'LLPay' do |LLPay|
-   LLPay.resource = 'YXPaylibraryManager/LLPay/Assets/walletResources.bundle'
-   LLPay.vendored_libraries = 'YXPaylibraryManager/LLPay/Frameworks/libPaySdkColor.a'
-   LLPay.source_files = 'YXPaylibraryManager/LLPay/LLpayClass/*.{h,m}'
-   LLPay.libraries = 'stdc++','z','sqlite3'
-   LLPay.frameworks = 'CoreMotion','CoreTelephony','SystemConfiguration'
+   s.subspec 'llPay' do |llPay|
+   llPay.resource = 'YXPaylibraryManager/llPay/Assets/walletResources.bundle'
+   llPay.vendored_libraries = 'YXPaylibraryManager/llPay/Frameworks/libPaySdkColor.a'
+   llPay.source_files = 'YXPaylibraryManager/llPay/LLPayClass/*.{h}'
+   llPay.libraries = 'stdc++','z','sqlite3'
+   llPay.frameworks = 'CoreMotion','CoreTelephony','SystemConfiguration'
    end
 
 

@@ -91,7 +91,7 @@
 		53220D79200C969E00ADEBAD /* YXPaylibraryManager */ = {
 			isa = PBXGroup;
 			children = (
-				534CE286200DADE900B859F5 /* LLPay */,
+				534CE286200DADE900B859F5 /* llPay */,
 				534CE27F200DA20C00B859F5 /* aliPay */,
 				53220DC5200CE50900ADEBAD /* weChat */,
 				53220D7A200C969E00ADEBAD /* AppDelegate.h */,
@@ -155,22 +155,22 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		534CE286200DADE900B859F5 /* LLPay */ = {
+		534CE286200DADE900B859F5 /* llPay */ = {
 			isa = PBXGroup;
 			children = (
-				534CE287200DADE900B859F5 /* LLpayClass */,
+				534CE287200DADE900B859F5 /* LLPayClass */,
 				534CE289200DADE900B859F5 /* Frameworks */,
 				534CE28B200DADE900B859F5 /* Assets */,
 			);
-			path = LLPay;
+			path = llPay;
 			sourceTree = "<group>";
 		};
-		534CE287200DADE900B859F5 /* LLpayClass */ = {
+		534CE287200DADE900B859F5 /* LLPayClass */ = {
 			isa = PBXGroup;
 			children = (
 				534CE288200DADE900B859F5 /* LLPaySdk.h */,
 			);
-			path = LLpayClass;
+			path = LLPayClass;
 			sourceTree = "<group>";
 		};
 		534CE289200DADE900B859F5 /* Frameworks */ = {
