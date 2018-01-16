@@ -19,6 +19,8 @@
 		53220DB1200C9AB800ADEBAD /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 53220DB0200C9AB800ADEBAD /* libc++.tbd */; };
 		53220DB3200C9B1E00ADEBAD /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53220DB2200C9B1E00ADEBAD /* CoreMotion.framework */; };
 		53220DCA200CE6DF00ADEBAD /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53220DC9200CE6DF00ADEBAD /* libWeChatSDK.a */; };
+		534CE284200DA20C00B859F5 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534CE281200DA20C00B859F5 /* AlipaySDK.framework */; };
+		534CE285200DA20C00B859F5 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 534CE283200DA20C00B859F5 /* AlipaySDK.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		53220DC7200CE50900ADEBAD /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		53220DC8200CE50900ADEBAD /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
 		53220DC9200CE6DF00ADEBAD /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		534CE281200DA20C00B859F5 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		534CE283200DA20C00B859F5 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				534CE284200DA20C00B859F5 /* AlipaySDK.framework in Frameworks */,
 				53220DB3200C9B1E00ADEBAD /* CoreMotion.framework in Frameworks */,
 				53220DB1200C9AB800ADEBAD /* libc++.tbd in Frameworks */,
 				53220DCA200CE6DF00ADEBAD /* libWeChatSDK.a in Frameworks */,
@@ -80,6 +85,7 @@
 		53220D79200C969E00ADEBAD /* YXPaylibraryManager */ = {
 			isa = PBXGroup;
 			children = (
+				534CE27F200DA20C00B859F5 /* aliPay */,
 				53220DC5200CE50900ADEBAD /* weChat */,
 				53220D7A200C969E00ADEBAD /* AppDelegate.h */,
 				53220D7B200C969E00ADEBAD /* AppDelegate.m */,
@@ -115,6 +121,31 @@
 				53220DC8200CE50900ADEBAD /* WechatAuthSDK.h */,
 			);
 			path = weChat;
+			sourceTree = "<group>";
+		};
+		534CE27F200DA20C00B859F5 /* aliPay */ = {
+			isa = PBXGroup;
+			children = (
+				534CE280200DA20C00B859F5 /* Frameworks */,
+				534CE282200DA20C00B859F5 /* Assets */,
+			);
+			path = aliPay;
+			sourceTree = "<group>";
+		};
+		534CE280200DA20C00B859F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				534CE281200DA20C00B859F5 /* AlipaySDK.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		534CE282200DA20C00B859F5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				534CE283200DA20C00B859F5 /* AlipaySDK.bundle */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +208,7 @@
 			files = (
 				53220D87200C969E00ADEBAD /* LaunchScreen.storyboard in Resources */,
 				53220D84200C969E00ADEBAD /* Assets.xcassets in Resources */,
+				534CE285200DA20C00B859F5 /* AlipaySDK.bundle in Resources */,
 				53220D82200C969E00ADEBAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +361,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/aliPay/Frameworks",
+					"$(PROJECT_DIR)/YXPaylibraryManager/aliPay/Frameworks",
 				);
 				INFOPLIST_FILE = YXPaylibraryManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -356,6 +389,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/aliPay/Frameworks",
+					"$(PROJECT_DIR)/YXPaylibraryManager/aliPay/Frameworks",
 				);
 				INFOPLIST_FILE = YXPaylibraryManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
