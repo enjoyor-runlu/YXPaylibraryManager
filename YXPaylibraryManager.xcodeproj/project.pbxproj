@@ -18,6 +18,7 @@
 		53220DAF200C9A9E00ADEBAD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 53220DAE200C9A9E00ADEBAD /* libz.tbd */; };
 		53220DB1200C9AB800ADEBAD /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 53220DB0200C9AB800ADEBAD /* libc++.tbd */; };
 		53220DB3200C9B1E00ADEBAD /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53220DB2200C9B1E00ADEBAD /* CoreMotion.framework */; };
+		53220DCA200CE6DF00ADEBAD /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53220DC9200CE6DF00ADEBAD /* libWeChatSDK.a */; };
 		534CE284200DA20C00B859F5 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534CE281200DA20C00B859F5 /* AlipaySDK.framework */; };
 		534CE285200DA20C00B859F5 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 534CE283200DA20C00B859F5 /* AlipaySDK.bundle */; };
 		534CE28D200DADE900B859F5 /* libPaySdkColor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 534CE28A200DADE900B859F5 /* libPaySdkColor.a */; };
@@ -43,6 +44,7 @@
 		53220DC6200CE50900ADEBAD /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		53220DC7200CE50900ADEBAD /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		53220DC8200CE50900ADEBAD /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		53220DC9200CE6DF00ADEBAD /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		534CE281200DA20C00B859F5 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		534CE283200DA20C00B859F5 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		534CE288200DADE900B859F5 /* LLPaySdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPaySdk.h; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				534CE28D200DADE900B859F5 /* libPaySdkColor.a in Frameworks */,
 				53220DB3200C9B1E00ADEBAD /* CoreMotion.framework in Frameworks */,
 				53220DB1200C9AB800ADEBAD /* libc++.tbd in Frameworks */,
+				53220DCA200CE6DF00ADEBAD /* libWeChatSDK.a in Frameworks */,
 				53220DAF200C9A9E00ADEBAD /* libz.tbd in Frameworks */,
 				53220DAD200C9A6F00ADEBAD /* libsqlite3.tbd in Frameworks */,
 				53220DAB200C98EC00ADEBAD /* CoreTelephony.framework in Frameworks */,
@@ -119,6 +122,7 @@
 		53220DC5200CE50900ADEBAD /* weChat */ = {
 			isa = PBXGroup;
 			children = (
+				53220DC9200CE6DF00ADEBAD /* libWeChatSDK.a */,
 				53220DC6200CE50900ADEBAD /* WXApi.h */,
 				53220DC7200CE50900ADEBAD /* WXApiObject.h */,
 				53220DC8200CE50900ADEBAD /* WechatAuthSDK.h */,
