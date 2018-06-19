@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YXPaylibraryManager'
-  s.version          = '2.0.1'
+  s.version          = '2.0.2'
   s.summary          = 'YXPaylibraryManager.'
 
 # This description is used to generate tags and improve search results.
@@ -63,5 +63,5 @@ TODO: Add long description of the pod here.
  #  s.dependency 'YXFDCategories'
  #  s.dependency 'AFNetworking', '3.1.0'
  #  s.dependency 'TMCache'
- s.dependency 'UMengUShare'
+ #s.dependency 'UMengUShare'
 end
