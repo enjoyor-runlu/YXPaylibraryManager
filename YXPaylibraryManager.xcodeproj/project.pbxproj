@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A4A8EB5A4CEA689A79AAE68 /* libPods-YXPaylibraryManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9047AABDCE2597B07481797 /* libPods-YXPaylibraryManager.a */; };
 		53220D7C200C969E00ADEBAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53220D7B200C969E00ADEBAD /* AppDelegate.m */; };
 		53220D7F200C969E00ADEBAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53220D7E200C969E00ADEBAD /* ViewController.m */; };
 		53220D82200C969E00ADEBAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53220D80200C969E00ADEBAD /* Main.storyboard */; };
@@ -18,7 +19,6 @@
 		53220DAF200C9A9E00ADEBAD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 53220DAE200C9A9E00ADEBAD /* libz.tbd */; };
 		53220DB1200C9AB800ADEBAD /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 53220DB0200C9AB800ADEBAD /* libc++.tbd */; };
 		53220DB3200C9B1E00ADEBAD /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53220DB2200C9B1E00ADEBAD /* CoreMotion.framework */; };
-		53220DCA200CE6DF00ADEBAD /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53220DC9200CE6DF00ADEBAD /* libWeChatSDK.a */; };
 		534CE284200DA20C00B859F5 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534CE281200DA20C00B859F5 /* AlipaySDK.framework */; };
 		534CE285200DA20C00B859F5 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 534CE283200DA20C00B859F5 /* AlipaySDK.bundle */; };
 		534CE28D200DADE900B859F5 /* libPaySdkColor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 534CE28A200DADE900B859F5 /* libPaySdkColor.a */; };
@@ -44,12 +44,14 @@
 		53220DC6200CE50900ADEBAD /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		53220DC7200CE50900ADEBAD /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		53220DC8200CE50900ADEBAD /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
-		53220DC9200CE6DF00ADEBAD /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		534CE281200DA20C00B859F5 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		534CE283200DA20C00B859F5 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		534CE288200DADE900B859F5 /* LLPaySdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPaySdk.h; sourceTree = "<group>"; };
 		534CE28A200DADE900B859F5 /* libPaySdkColor.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaySdkColor.a; sourceTree = "<group>"; };
 		534CE28C200DADE900B859F5 /* walletResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = walletResources.bundle; sourceTree = "<group>"; };
+		C6FF5C073760F8B3BEA73789 /* Pods-YXPaylibraryManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXPaylibraryManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXPaylibraryManager/Pods-YXPaylibraryManager.debug.xcconfig"; sourceTree = "<group>"; };
+		CF7D705C29890EB84A0A748B /* Pods-YXPaylibraryManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXPaylibraryManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXPaylibraryManager/Pods-YXPaylibraryManager.release.xcconfig"; sourceTree = "<group>"; };
+		E9047AABDCE2597B07481797 /* libPods-YXPaylibraryManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXPaylibraryManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,22 +63,32 @@
 				534CE28D200DADE900B859F5 /* libPaySdkColor.a in Frameworks */,
 				53220DB3200C9B1E00ADEBAD /* CoreMotion.framework in Frameworks */,
 				53220DB1200C9AB800ADEBAD /* libc++.tbd in Frameworks */,
-				53220DCA200CE6DF00ADEBAD /* libWeChatSDK.a in Frameworks */,
 				53220DAF200C9A9E00ADEBAD /* libz.tbd in Frameworks */,
 				53220DAD200C9A6F00ADEBAD /* libsqlite3.tbd in Frameworks */,
 				53220DAB200C98EC00ADEBAD /* CoreTelephony.framework in Frameworks */,
+				2A4A8EB5A4CEA689A79AAE68 /* libPods-YXPaylibraryManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		107A008E49D15046A433EA87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6FF5C073760F8B3BEA73789 /* Pods-YXPaylibraryManager.debug.xcconfig */,
+				CF7D705C29890EB84A0A748B /* Pods-YXPaylibraryManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		53220D6E200C969E00ADEBAD = {
 			isa = PBXGroup;
 			children = (
 				53220D79200C969E00ADEBAD /* YXPaylibraryManager */,
 				53220D78200C969E00ADEBAD /* Products */,
 				53220DA9200C98EC00ADEBAD /* Frameworks */,
+				107A008E49D15046A433EA87 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +127,7 @@
 				53220DAE200C9A9E00ADEBAD /* libz.tbd */,
 				53220DAC200C9A6E00ADEBAD /* libsqlite3.tbd */,
 				53220DAA200C98EC00ADEBAD /* CoreTelephony.framework */,
+				E9047AABDCE2597B07481797 /* libPods-YXPaylibraryManager.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,7 +135,6 @@
 		53220DC5200CE50900ADEBAD /* weChat */ = {
 			isa = PBXGroup;
 			children = (
-				53220DC9200CE6DF00ADEBAD /* libWeChatSDK.a */,
 				53220DC6200CE50900ADEBAD /* WXApi.h */,
 				53220DC7200CE50900ADEBAD /* WXApiObject.h */,
 				53220DC8200CE50900ADEBAD /* WechatAuthSDK.h */,
@@ -196,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53220D8D200C969E00ADEBAD /* Build configuration list for PBXNativeTarget "YXPaylibraryManager" */;
 			buildPhases = (
+				53AFEC013F3262B617B34545 /* [CP] Check Pods Manifest.lock */,
 				53220D73200C969E00ADEBAD /* Sources */,
 				53220D74200C969E00ADEBAD /* Frameworks */,
 				53220D75200C969E00ADEBAD /* Resources */,
+				51AB1CADD71791A746AC8F41 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +270,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51AB1CADD71791A746AC8F41 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YXPaylibraryManager/Pods-YXPaylibraryManager-resources.sh",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Twitter/TwitterKitResources.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Twitter/TwitterShareExtensionUIResources.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKPromptResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXPaylibraryManager/Pods-YXPaylibraryManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53AFEC013F3262B617B34545 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YXPaylibraryManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		53220D73200C969E00ADEBAD /* Sources */ = {
@@ -396,6 +459,7 @@
 		};
 		53220D8E200C969E00ADEBAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6FF5C073760F8B3BEA73789 /* Pods-YXPaylibraryManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -425,6 +489,7 @@
 		};
 		53220D8F200C969E00ADEBAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF7D705C29890EB84A0A748B /* Pods-YXPaylibraryManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

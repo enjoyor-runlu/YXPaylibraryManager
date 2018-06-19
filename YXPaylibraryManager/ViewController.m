@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <UMSocialCore/UMSocialCore.h>
 
 @interface ViewController ()
 
