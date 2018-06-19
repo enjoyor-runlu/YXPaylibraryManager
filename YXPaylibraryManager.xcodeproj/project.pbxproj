@@ -23,6 +23,7 @@
 		534CE285200DA20C00B859F5 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 534CE283200DA20C00B859F5 /* AlipaySDK.bundle */; };
 		534CE28D200DADE900B859F5 /* libPaySdkColor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 534CE28A200DADE900B859F5 /* libPaySdkColor.a */; };
 		534CE28E200DADE900B859F5 /* walletResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 534CE28C200DADE900B859F5 /* walletResources.bundle */; };
+		53A2850420D91E49006E24C0 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A2850320D91E49006E24C0 /* libWeChatSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		534CE288200DADE900B859F5 /* LLPaySdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPaySdk.h; sourceTree = "<group>"; };
 		534CE28A200DADE900B859F5 /* libPaySdkColor.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaySdkColor.a; sourceTree = "<group>"; };
 		534CE28C200DADE900B859F5 /* walletResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = walletResources.bundle; sourceTree = "<group>"; };
+		53A2850320D91E49006E24C0 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		C6FF5C073760F8B3BEA73789 /* Pods-YXPaylibraryManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXPaylibraryManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXPaylibraryManager/Pods-YXPaylibraryManager.debug.xcconfig"; sourceTree = "<group>"; };
 		CF7D705C29890EB84A0A748B /* Pods-YXPaylibraryManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXPaylibraryManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXPaylibraryManager/Pods-YXPaylibraryManager.release.xcconfig"; sourceTree = "<group>"; };
 		E9047AABDCE2597B07481797 /* libPods-YXPaylibraryManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXPaylibraryManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +63,7 @@
 			files = (
 				534CE284200DA20C00B859F5 /* AlipaySDK.framework in Frameworks */,
 				534CE28D200DADE900B859F5 /* libPaySdkColor.a in Frameworks */,
+				53A2850420D91E49006E24C0 /* libWeChatSDK.a in Frameworks */,
 				53220DB3200C9B1E00ADEBAD /* CoreMotion.framework in Frameworks */,
 				53220DB1200C9AB800ADEBAD /* libc++.tbd in Frameworks */,
 				53220DAF200C9A9E00ADEBAD /* libz.tbd in Frameworks */,
@@ -135,6 +138,7 @@
 		53220DC5200CE50900ADEBAD /* weChat */ = {
 			isa = PBXGroup;
 			children = (
+				53A2850320D91E49006E24C0 /* libWeChatSDK.a */,
 				53220DC6200CE50900ADEBAD /* WXApi.h */,
 				53220DC7200CE50900ADEBAD /* WXApiObject.h */,
 				53220DC8200CE50900ADEBAD /* WechatAuthSDK.h */,
@@ -212,7 +216,6 @@
 				53220D73200C969E00ADEBAD /* Sources */,
 				53220D74200C969E00ADEBAD /* Frameworks */,
 				53220D75200C969E00ADEBAD /* Resources */,
-				51AB1CADD71791A746AC8F41 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,34 +275,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		51AB1CADD71791A746AC8F41 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-YXPaylibraryManager/Pods-YXPaylibraryManager-resources.sh",
-				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
-				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
-				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle",
-				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Twitter/TwitterKitResources.bundle",
-				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Twitter/TwitterShareExtensionUIResources.bundle",
-				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKPromptResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXPaylibraryManager/Pods-YXPaylibraryManager-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		53AFEC013F3262B617B34545 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
