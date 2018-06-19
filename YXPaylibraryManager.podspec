@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
    #s.source_files  = 'YXPaylibraryManager/weChat/*.{h,m}'
    s.subspec 'weChat' do |weChat|
    weChat.source_files = 'YXPaylibraryManager/weChat/*.{h,m}'
-   weChat.vendored_libraries = 'YXPaylibraryManager/weChat/libWeChatSDK.a'
+   weChat.vendored_libraries = 'YXPaylibraryManager/weChat/libWeChatSDK2.a'
    weChat.libraries = 'stdc++','z','sqlite3'
    weChat.frameworks = 'UIKit', 'Foundation','CoreMotion','CoreTelephony','SystemConfiguration'
    end
