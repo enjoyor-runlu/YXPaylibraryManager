@@ -10,7 +10,7 @@ target 'YXPaylibraryManager' do
 
   # Pods for YXPaylibraryManager
 
-    #pod 'UMengUShare'
+    pod 'UMengUShare'
 
 
 
