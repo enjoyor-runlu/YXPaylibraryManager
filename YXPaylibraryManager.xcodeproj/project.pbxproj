@@ -441,19 +441,19 @@
 				DEVELOPMENT_TEAM = 5P525FR3YV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/aliPay/Frameworks",
-					"$(PROJECT_DIR)/YXPaylibraryManager/aliPay/Frameworks",
+					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/Alipay/Frameworks",
+					"$(PROJECT_DIR)/YXPaylibraryManager/Alipay/Frameworks",
 				);
 				INFOPLIST_FILE = YXPaylibraryManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/LLPay/Frameworks",
-					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/weChat/Frameworks",
-					"$(PROJECT_DIR)/YXPaylibraryManager/weChat/Frameworks",
-					"$(PROJECT_DIR)/YXPaylibraryManager/weChat",
-					"$(PROJECT_DIR)/YXPaylibraryManager/LLPay/Frameworks",
+					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/Lianpay/Frameworks",
+					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/Wxpay/Frameworks",
+					"$(PROJECT_DIR)/YXPaylibraryManager/Wxpay/Frameworks",
+					"$(PROJECT_DIR)/YXPaylibraryManager/Wxpay",
+					"$(PROJECT_DIR)/YXPaylibraryManager/Lianpay/Frameworks",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = YiXiang.YXPaylibraryManager;
@@ -471,19 +471,19 @@
 				DEVELOPMENT_TEAM = 5P525FR3YV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/aliPay/Frameworks",
-					"$(PROJECT_DIR)/YXPaylibraryManager/aliPay/Frameworks",
+					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/Alipay/Frameworks",
+					"$(PROJECT_DIR)/YXPaylibraryManager/Alipay/Frameworks",
 				);
 				INFOPLIST_FILE = YXPaylibraryManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/LLPay/Frameworks",
-					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/weChat/Frameworks",
-					"$(PROJECT_DIR)/YXPaylibraryManager/weChat/Frameworks",
-					"$(PROJECT_DIR)/YXPaylibraryManager/weChat",
-					"$(PROJECT_DIR)/YXPaylibraryManager/LLPay/Frameworks",
+					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/Lianpay/Frameworks",
+					"$(PROJECT_DIR)/YXPaylibraryManager/Classes/Wxpay/Frameworks",
+					"$(PROJECT_DIR)/YXPaylibraryManager/Wxpay/Frameworks",
+					"$(PROJECT_DIR)/YXPaylibraryManager/Wxpay",
+					"$(PROJECT_DIR)/YXPaylibraryManager/Lianpay/Frameworks",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = YiXiang.YXPaylibraryManager;
