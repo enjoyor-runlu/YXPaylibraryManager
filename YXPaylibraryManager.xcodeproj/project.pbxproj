@@ -106,9 +106,9 @@
 		53220D79200C969E00ADEBAD /* YXPaylibraryManager */ = {
 			isa = PBXGroup;
 			children = (
-				534CE27F200DA20C00B859F5 /* alipay */,
-				534CE286200DADE900B859F5 /* lianpay */,
-				53220DC5200CE50900ADEBAD /* wxpay */,
+				534CE27F200DA20C00B859F5 /* Alipay */,
+				534CE286200DADE900B859F5 /* Lianpay */,
+				53220DC5200CE50900ADEBAD /* Wxpay */,
 				53220D7A200C969E00ADEBAD /* AppDelegate.h */,
 				53220D7B200C969E00ADEBAD /* AppDelegate.m */,
 				53220D7D200C969E00ADEBAD /* ViewController.h */,
@@ -135,7 +135,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		53220DC5200CE50900ADEBAD /* wxpay */ = {
+		53220DC5200CE50900ADEBAD /* Wxpay */ = {
 			isa = PBXGroup;
 			children = (
 				335EA6BA22005F91008F82F0 /* libWeChatSDK.a */,
@@ -143,16 +143,16 @@
 				53220DC6200CE50900ADEBAD /* WXApi.h */,
 				53220DC7200CE50900ADEBAD /* WXApiObject.h */,
 			);
-			path = wxpay;
+			path = Wxpay;
 			sourceTree = "<group>";
 		};
-		534CE27F200DA20C00B859F5 /* alipay */ = {
+		534CE27F200DA20C00B859F5 /* Alipay */ = {
 			isa = PBXGroup;
 			children = (
 				534CE280200DA20C00B859F5 /* Frameworks */,
 				534CE282200DA20C00B859F5 /* Assets */,
 			);
-			path = alipay;
+			path = Alipay;
 			sourceTree = "<group>";
 		};
 		534CE280200DA20C00B859F5 /* Frameworks */ = {
@@ -171,14 +171,14 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		534CE286200DADE900B859F5 /* lianpay */ = {
+		534CE286200DADE900B859F5 /* Lianpay */ = {
 			isa = PBXGroup;
 			children = (
 				534CE287200DADE900B859F5 /* LLPayClass */,
 				534CE289200DADE900B859F5 /* Frameworks */,
 				534CE28B200DADE900B859F5 /* Assets */,
 			);
-			path = lianpay;
+			path = Lianpay;
 			sourceTree = "<group>";
 		};
 		534CE287200DADE900B859F5 /* LLPayClass */ = {
