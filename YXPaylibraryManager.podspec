@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'YXPaylibraryManager'
-  spec.version          = '2.0.10'
+  spec.version          = '2.1.0'
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.homepage         = 'https://github.com/enjoyor-runlu/YXPaylibraryManager'
   spec.author           = { '' => '' }
@@ -22,12 +22,6 @@ Pod::Spec.new do |spec|
     lianpay.source_files = 'YXPaylibraryManager/Lianpay/LLPayClass/*.{h}'
     lianpay.libraries = 'stdc++','z','sqlite3'
     lianpay.frameworks = 'UIKit', 'Foundation','CoreMotion','CoreTelephony','SystemConfiguration'
-  end
-
-  spec.subspec 'Wxpay' do |wxpay|
-    wxpay.source_files = 'YXPaylibraryManager/Wxpay/*.{h,m}'
-    wxpay.libraries = 'stdc++','z','sqlite3'
-    wxpay.frameworks = 'UIKit', 'Foundation','CoreMotion','CoreTelephony','SystemConfiguration'
   end
 
   spec.frameworks = 'UIKit', 'Foundation'
